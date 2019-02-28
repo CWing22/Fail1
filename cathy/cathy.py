@@ -12,9 +12,9 @@ BOT_PREFIX = ('?', '!')
 
 
 class ChattyCathy:
-    def __init__(self, foxyvamp,cKvj66nEXkHQ1w5F7xz56GrDhEC9HPtH):
-        self.channel_name = channel_name
-        self.token = bot_token
+    def __init__(self, foxyvamp,NTQ2MTEzOTkzMDU2NTgzNjgw.D1nd7w.ei2YZ-3RekxPtr9cEyONm_w53m8):
+        self.channel_name = foxyvamp
+        self.token = NTQ2MTEzOTkzMDU2NTgzNjgw.D1nd7w.ei2YZ-3RekxPtr9cEyONm_w53m8
 
         # Load AIML kernel
         self.aiml_kernel = aiml.Kernel()

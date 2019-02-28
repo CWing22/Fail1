@@ -34,15 +34,15 @@ class ChattyCathy:
         @self.discord_client.event
         @asyncio.coroutine
         def on_ready():
-            print("Bot Online!")
+            print("FoxyVamp Online!")
             print("Name: {}".format(self.discord_client.user.name))
             print("ID: {}".format(self.discord_client.user.id))
-            yield from self.discord_client.change_presence(game=discord.Game(name='Chatting with Humans'))
+            yield from self.discord_client.change_presence(game=discord.Game(name='Chatting with th Foxy fam'))
 
         @self.discord_client.event
         @asyncio.coroutine
         def on_message(message):
-            if message.author.bot or str(message.channel) != self.channel_name:
+            if message.author.bot or str(message.channel) != self.channel_name:foxyvamp
                 return
 
             if message.content is None:

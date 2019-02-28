@@ -4,11 +4,11 @@
 Discord chat bot using AIML artificial intelligence
 
 Usage:
-  cathy <foxyvamp> <NTQ2MTEzOTkzMDU2NTgzNjgw.D1m8Ew.ZXMDlRqOC7ffwne8ppcZ_DaNoQ0>
+  cathy <foxyvamp> <NTQ2MTEzOTkzMDU2NTgzNjgw.D1nZxA.Q6u3UTcCIBZh2u0RSt349WWBWLI>
 
 Options:
   <foxyvamp>     Name of channel to chat in
-  <NTQ2MTEzOTkzMDU2NTgzNjgw.D1nEmg.Pujw-t_oPKS_L2rRQf03fcKP2eM>       Bot's Discord API token
+  <NTQ2MTEzOTkzMDU2NTgzNjgw.D1nZxA.Q6u3UTcCIBZh2u0RSt349WWBWLI>       Bot's Discord API token
   -h --help     Show this screen.
 """
 
@@ -17,8 +17,8 @@ from cathy.cathy import ChattyCathy
 
 args = docopt(__doc__)
 
-print('Channel: ', args['<channel>'])
-print('Token: ', args['<token>'])
+print('foxyvamp: ', args['<foxyvamp>'])
+print('NTQ2MTEzOTkzMDU2NTgzNjgw.D1nZxA.Q6u3UTcCIBZh2u0RSt349WWBWLI: ', args['<NTQ2MTEzOTkzMDU2NTgzNjgw.D1nZxA.Q6u3UTcCIBZh2u0RSt349WWBWLI>'])
 
-bot = ChattyCathy(args['<channel>'], args['<token>'])
+bot = ChattyCathy(args['<foxyvamp>'], args['<NTQ2MTEzOTkzMDU2NTgzNjgw.D1nZxA.Q6u3UTcCIBZh2u0RSt349WWBWLI>'])
 bot.run()

@@ -12,7 +12,7 @@ BOT_PREFIX = ('?', '!')
 
 
 class ChattyCathy:
-    def __init__(self, channel_name, bot_token):
+    def __init__(self, foxyvamp,cKvj66nEXkHQ1w5F7xz56GrDhEC9HPtH):
         self.channel_name = channel_name
         self.token = bot_token
 

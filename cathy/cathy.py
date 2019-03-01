@@ -5,7 +5,7 @@ import pkg_resources
 from discord.ext import commands
 import asyncio
 import aiml
-
+import __init__.py
 STARTUP_FILE = "std-startup.xml"
 BOT_PREFIX = ('?', '!')
 

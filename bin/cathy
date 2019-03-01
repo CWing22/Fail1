@@ -8,7 +8,7 @@ Usage:
 
 Options:
   <foxyvamp>     Name of channel to chat in
-  <https://discordapp.com/api/oauth2/authorize?client_id=546113993056583680&permissions=0&scope=bot>       Bot's Discord API token
+  <NTQ2MTEzOTkzMDU2NTgzNjgw.D1pnBw.IdpE4qudnf2orxpj45hAMe2iCR8>       Bot's Discord API token
   -h --help     Show this screen.
 """
 

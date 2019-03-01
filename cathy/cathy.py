@@ -5,7 +5,7 @@ import pkg_resources
 from discord.ext import commands
 import asyncio
 import aiml
-import __init__.py
+
 STARTUP_FILE = "std-startup.xml"
 BOT_PREFIX = ('?', '!')
 
@@ -59,6 +59,4 @@ class ChattyCathy:
                 yield from asyncio.sleep(random.randint(1,3))
                 yield from self.discord_client.send_message(message.channel, aiml_response)
 
-    def run(self):
-        
-        self.discord_client.run(self.token)
+    def run(self:  self.discord_client.run(self.token)

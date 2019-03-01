@@ -4,7 +4,8 @@
 Discord chat bot using AIML artificial intelligence
 
 Usage:
-  cathy <foxyvamp> <NTQ2MTEzOTkzMDU2NTgzNjgw.D1pnBw.IdpE4qudnf2orxpj45hAMe2iCR8>
+  cathy <foxyvamp>, <https://discordapp.com/api/oauth2/authorize?client_id=546113993056583680&permissions=0&scope=bot	
+https://discordapp.com/api/oauth2/authorize?client_id=546113993056583680&permissions=0&scope=bot>
 
 Options:
   <channel>     Name of channel to chat in

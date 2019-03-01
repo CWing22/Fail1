@@ -12,9 +12,9 @@ BOT_PREFIX = ('?', '!')
 
 
 class ChattyCathy:
-    def __init__(self, foxyvamp,NTQ2MTEzOTkzMDU2NTgzNjgw.D1nd7w.ei2YZ-3RekxPtr9cEyONm_w53m8):
-        self.channel_name = foxyvamp
-        self.token = NTQ2MTEzOTkzMDU2NTgzNjgw.D1nd7w.ei2YZ-3RekxPtr9cEyONm_w53m8
+    def __init__(self, channel_name,token):
+        self.channel_name = channel_name
+        self.token = token
 
         # Load AIML kernel
         self.aiml_kernel = aiml.Kernel()
@@ -42,7 +42,7 @@ class ChattyCathy:
         @self.discord_client.event
         @asyncio.coroutine
         def on_message(message):
-            if message.author.bot or str(message.channel) != self.channel_name:foxyvamp
+            if message.author.bot or str(message.channel) != self.channel_name:channel_name
                 return
 
             if message.content is None:
@@ -61,4 +61,5 @@ class ChattyCathy:
                 yield from self.discord_client.send_message(message.channel, aiml_response)
 
     def run(self):
+        
         self.discord_client.run(self.token)

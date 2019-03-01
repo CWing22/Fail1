@@ -5,7 +5,7 @@ import pkg_resources
 from discord.ext import commands
 import asyncio
 import aiml
-import https://discordapp.com/api/oauth2/authorize?client_id=546113993056583680&permissions=0&scope=bot
+export https://discordapp.com/api/oauth2/authorize?client_id=546113993056583680&permissions=0&scope=bot
 
 STARTUP_FILE = "std-startup.xml"
 BOT_PREFIX = ('?', '!')

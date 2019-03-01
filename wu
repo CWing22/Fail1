@@ -9,7 +9,7 @@ import requests
 
 USERNAME = "FoxyVamp" # Substitute your bot's username
 TOKEN = "https://discordapp.com/api/oauth2/authorize?client_id=546113993056583680&permissions=0&redirect_uri=https%3A%2F%2Fdiscordapp.com%2Fapi%2Foauth2%2Fauthorize%3Fclient_id%3D" # OAUTH token (Get one here: https://twitchapps.com/tmi/)
-CHANNEL = "#FoxyVamp" #
+CHANNEL = "foxyvamp"
 
 STARTUP_FILE = "std-startup.xml"
 BOT_PREFIX = ('?', '!')

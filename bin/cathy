@@ -7,8 +7,8 @@ Usage:
   cathy <channel> <token>
 
 Options:
-  <channel>     Name of channel to chat in
-  <token>       Bot's Discord API token
+  <foxyvamp>     Name of channel to chat in
+  <https://discordapp.com/api/oauth2/authorize?client_id=546113993056583680&permissions=0&scope=bot>       Bot's Discord API token
   -h --help     Show this screen.
 """
 

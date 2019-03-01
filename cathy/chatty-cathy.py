@@ -4,9 +4,9 @@ import requests
 import aiml
 import irc.bot
 
-USERNAME = "FoxyVamp" # Substitute your bot's username
+USERNAME = "crack_azz" # Substitute your bot's username
 TOKEN = "oauth:faw7gp2bo4r9qbgyk11ocd37jar0qp" # OAUTH token (Get one here: https://twitchapps.com/tmi/)
-CHANNEL = "Foxy_Fury" # Twitch channel to join
+CHANNEL = "stilettoninja" # Twitch channel to join
 
 STARTUP_FILE = "std-startup.xml"
 BOT_PREFIX = ('?', '!')

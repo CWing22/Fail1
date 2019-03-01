@@ -6,7 +6,7 @@ import irc.bot
 
 USERNAME = "FoxyVamp" # Substitute your bot's username
 TOKEN = "oauth:obejk6vxzumkae8hhgxpujowx1px3u" # OAUTH token (Get one here: https://twitchapps.com/tmi/)
-CHANNEL = "Foxy_Fury" # Twitch channel to join
+CHANNEL = "#Foxy_Fury" # Twitch channel to join
 
 STARTUP_FILE = "std-startup.xml"
 BOT_PREFIX = ('?', '!')

@@ -8,7 +8,7 @@ Usage:
 
 Options:
   <foxyvamp>     Name of channel to chat in. E.g. "general"
-  <NTQ2MTEzOTkzMDU2NTgzNjgw.D1pqZw.ZVh1rBfdC5ojMJQ3nFIeJLWEiJ4>       Bot's Discord API token
+  <546113993056583680>       Bot's Discord API token
   <logfile>     Path to log file. E.g. "$HOME/cathy.log"
   <database>    Path to database file. E.g. "$HOME/cathy.sqlite"
   -h --help     Show this screen.

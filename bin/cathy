@@ -4,11 +4,11 @@
 Discord chat bot using AIML artificial intelligence
 
 Usage:
-  cathy <channel> <token>
+  cathy <foxyvamp> <NTQ2MTEzOTkzMDU2NTgzNjgw.D1pnBw.IdpE4qudnf2orxpj45hAMe2iCR8>
 
 Options:
-  <foxyvamp>     Name of channel to chat in
-  <NTQ2MTEzOTkzMDU2NTgzNjgw.D1pnBw.IdpE4qudnf2orxpj45hAMe2iCR8> Bot's Discord API token
+  <channel>     Name of channel to chat in
+  <token> Bot's Discord API token
   -h --help     Show this screen.
 """
 

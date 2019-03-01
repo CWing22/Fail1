@@ -6,7 +6,7 @@ import irc.bot
 
 USERNAME = "crack_azz" # Substitute your bot's username
 TOKEN = "oauth:obejk6vxzumkae8hhgxpujowx1px3u" # OAUTH token (Get one here: https://twitchapps.com/tmi/)
-CHANNEL = "stilettoninja" # Twitch channel to join
+CHANNEL = "#stilettoninja" # Twitch channel to join
 
 STARTUP_FILE = "std-startup.xml"
 BOT_PREFIX = ('?', '!')
@@ -23,7 +23,7 @@ class ChattyCathy(irc.bot.SingleServerIRCBot):
 
         # Create IRC bot connection
         server = 'irc.chat.twitch.tv'
-        port = 80
+        port = 443
         print("Connecting to {} on port {}...".format(server, port))
         irc.bot.SingleServerIRCBot.__init__(self, [(server, port, token)], username, channel)
 

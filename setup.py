@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='cathy',
+    name='FoxyVamp',
     version='1.0',
     description='Discord chat bot using AIML artificial intelligence.',
     author='CWing22',

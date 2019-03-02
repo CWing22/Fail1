@@ -1,3 +1,7 @@
+import FoxyVamp/bin
+import FoxyVamp/cathy
+import system.py
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
  
